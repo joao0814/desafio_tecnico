@@ -1,0 +1,21 @@
+services:
+  w_core:
+    build:
+      context: ./w_core
+      dockerfile: Dockerfile
+    container_name: w_core
+    environment:
+      PHX_SERVER: "true"
+      PORT: "4000"
+      DATABASE_PATH: /data/w_core.db
+      RUN_MIGRATIONS: "true"
+      PHX_HOST: localhost
+      SECRET_KEY_BASE: changeme_local_secret_key_base_please_replace_in_production
+    ports:
+      - "4000:4000"
+    volumes:
+      - sqlite_data:/data
+    restart: unless-stopped
+
+volumes:
+  sqlite_data:

@@ -1,0 +1,10 @@
+_build/
+deps/
+.git/
+.gitignore
+node_modules/
+assets/node_modules/
+*.db
+*.db-shm
+*.db-wal
+erl_crash.dump
