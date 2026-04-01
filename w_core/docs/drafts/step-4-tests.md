@@ -1,4 +1,4 @@
-# Passo 5: Testes de Caos
+# Passo 4: Simulacao de Caos (Testes Rigorosos)
 
 ## Objetivo
 Provar, com evidencias automatizadas, que o sistema suporta pancada de concorrencia real sem perder contagem no hot path (ETS) e sem divergir no cold path (SQLite).

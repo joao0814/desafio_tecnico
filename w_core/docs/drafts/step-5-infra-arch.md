@@ -1,4 +1,4 @@
-# Passo 6: Infra + Finalizacao (Edge Production)
+# Passo 5: Empacotamento para o Edge (Infraestrutura)
 
 ## Objetivo
 Empacotar o sistema para execucao em edge com release OTP e container Docker, mantendo persistencia SQLite em volume.

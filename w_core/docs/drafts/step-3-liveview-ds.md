@@ -1,4 +1,4 @@
-# Passo 4: LiveView em Tempo Real
+# Passo 3: A Sala de Controle (LiveView + Design System)
 
 ## Objetivo
 
